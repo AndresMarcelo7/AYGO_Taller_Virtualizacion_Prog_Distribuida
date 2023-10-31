@@ -30,7 +30,16 @@ En la consola de docker deberia ver algo como lo siguiente:
 
 ## Despliegue en Nube
 
-El despliegue en la nube se realizó con una máquina EC2, el resultado se evidencia en el navegador en la siguiente imagen.
+### Arquitectura
+
+La arquitectura propuesta para el montaje de esta actividad en AWS es la siguiente:
+
+![architecture.png](img%2Farchitecture.png)
+
+En donde usamos una maquina EC2 con Docker para desplegar nuestro servicio y habilitamos una regla en el Security Group de la máquina para que pueda ser accesible desde internet.
+
+
+El resultado de este montaje y el acceso desde un navegador se puede conseguir a continuación:
 
 ![Ec2Deploy.png](img%2FEc2Deploy.png)
 
