@@ -25,9 +25,15 @@ repasar conceptos básicos en el diseño en artefactos de software y despliegue 
 
 ### Evidencia 
 
-En la consola de docker deberia ver algo como esto: 
-![docker containers en consola]("img/dockercontainers.png")
+En la consola de docker deberia ver algo como lo siguiente:
+![dockercontainers.png](img%2Fdockercontainers.png)
 
 ## Despliegue en Nube
 
+El despliegue en la nube se realizó con una máquina EC2, el resultado se evidencia en el navegador en la siguiente imagen.
 
+![Ec2Deploy.png](img%2FEc2Deploy.png)
+
+La consola se evidencia a continuación la cual muestra evidencia de la maquina desplegada:
+
+![EC2Dashboard.png](img%2FEC2Dashboard.png)
